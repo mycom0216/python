@@ -62,7 +62,7 @@ print(Li1[0:3])
 Li1 = [1, 2] + [3, 4]
 print(Li1)
 
-print(Li1.extend([5, 6])) ##값을 반환하지않음 
+print(Li1.extend([5, 6])) ##값을 반환하지않음, 출력 시 none
 print(Li1)
 
 
