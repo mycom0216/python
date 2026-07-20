@@ -19,34 +19,34 @@
 #//=
 #**=
 
-num = 1
-num = num + 1
-print(num)
+#num = 1
+#num = num + 1
+#print(num)
 
-num += 1
-print(num)
-num //= 1
-print(num) 
-num /= 1
-print(num)
-num *= 1
-print(num)
-num -= 1
-print(num)
+#num += 1
+#print(num)
+#num //= 1
+#print(num) 
+#num /= 1
+#print(num)
+#num *= 1
+#print(num)
+#num -= 1
+#print(num)
 
 #다중 할당
-num1, num2, num3 = 1, 2, 1
-print(num1,num2,num3)
+##num1, num2, num3 = 1, 2, 1
+#print(num1,num2,num3)
 
-print(num1 == num2)
-print(num1 != num2)
-print(num1 != num3)
-print(num1 == num3)
+#print(num1 == num2)
+#print(num1 != num2)
+#print(num1 != num3)
+#print(num1 == num3)
 
-print(num1 > num2)
-print(num1 < num2)
-print(num1 >= num2)
-print(num1 <= num2)
+#print(num1 > num2)
+#print(num1 < num2)
+#print(num1 >= num2)
+#print(num1 <= num2)
 
 print("가방" < "가족")
 print([1, 2] < [1, 3])
@@ -85,7 +85,17 @@ print(num)
 num / 2
 print(num)
 # 5. 102와 201의 값을 이용하여 True가 나오도록 비교 연산자(==,!=,>,<,>=,<=)를 이용하여 작성
+num1 = 102
+num2 = 201
+print(num1 == num2)
+print(num1 != num2)
+print(num1 > num2)
+print(num1 < num2)
 
+print(num1 >= num2)
+print(num1 <= num2)
+print(num2 >= num1)
+print(num1 <= num2)
 # 6. 102 + 101 < 20 + 1의 결과가 무엇이 나오고, 왜 그렇게 나오는지 적을것
 
 # 7. True and True or False and True or True or False and True 의 결과는?
