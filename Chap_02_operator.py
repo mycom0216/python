@@ -75,12 +75,21 @@ print(11 // 2 % 7)
 # 3. 3 ** 2 ** 2 에 대한 내용을 '*' 연산자와 '()' 연산자를 이용하여 만들기
 print(3 * 3 * 3 * 3)
 # 4. 1의 값을 가진 num변수를 복합대입연산자를 이용하여 +3, -2, *3, /2를 했을 때의 결과를 출력
-
+num = 1
+num + 3
+print(num)
+num - 2
+print(num) 
+num * 3
+print(num)
+num / 2
+print(num)
 # 5. 102와 201의 값을 이용하여 True가 나오도록 비교 연산자(==,!=,>,<,>=,<=)를 이용하여 작성
 
 # 6. 102 + 101 < 20 + 1의 결과가 무엇이 나오고, 왜 그렇게 나오는지 적을것
 
 # 7. True and True or False and True or True or False and True 의 결과는?
+print(True and True or False and True or True or False and True)
 
 
 
