@@ -92,3 +92,18 @@ while i <= 9: # i가 9가 될때까지 반복
             #print("" * (a - (i+1)), end="")
             #print('*' * (i+1))
             
+#output = ""
+#for i in range(1,10):
+                #for j in range(0,i):
+                    #output += "*"
+                    #output += "\n"
+                    #print(output)
+                    #
+                    #output = ""
+                    #for i in range(1,15):
+                        #for j in range(14,i,-1):
+                            #output += ''
+                            #for  j in range(0,2,* i -1):
+                                #output += '*'
+                                #output += '\n'
+                                #print(output)
