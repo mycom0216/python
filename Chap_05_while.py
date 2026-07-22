@@ -39,12 +39,44 @@
         #num2 -= 1  
         
         # 0부터 시작해서 2씩해서 20까지 출력하는 반복문
-num = 0
-while num < 21:         ## 증가
-            print(num)
-            num += 2
+#num = 0
+#while num < 21:         ## 증가
+            #print(num)
+            #num += 2
         # 20부터 시작해서 4씩 줄어들어서 0까지 출력하는 반복문
-            num2 = 20
-            while num2 >= 0:    ## 감소
-                print(num2)
-                num2 -= 4
+            #num2 = 20
+            #while num2 >= 0:    ## 감소
+                #print(num2)
+                #num2 -= 4
+            
+#user_input = ""
+#while True:
+    #user_input = input("입력(종료시 '/q'): ")
+    #if user_input.isdigit():
+        #print(f"{user_input}원입니다.")
+        #continue 
+    #elif user_input == "/q":
+        #break
+    #print(user_input)
+    
+    # 안 녕 하 세 요 를 한글자씩 출력하는 반복문
+#text = "안녕하세요"
+#idx = 0
+
+#while idx < len(text):
+    #print(text[idx])
+    #idx += 1
+        
+        # 1부터 20까지 홀수만 continue를 써서 출력하는 반복문
+               
+#num = 1 ## 증가
+#while num < 20 :      
+        #if (num % 2) == 0:
+            #num += 1
+        #print(num)
+        #num += 1
+        #continue
+    
+    # 구구단 2단 2x1 -> 2x9 출력하는 구구단 프로그램 만들기
+    # 다음을 while문을 이용해서 만들어보기
+    
