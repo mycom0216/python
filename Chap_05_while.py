@@ -78,8 +78,6 @@
         #continue
     
     # 구구단 2단 2x1 -> 2x9 출력하는 구구단 프로그램 만들기
-    # 다음을 while문을 이용해서 만들어보기
-    
 num = 2 # 2단
 i = 1 #숫자를 세기 시작 할 변수 생성
     
@@ -87,18 +85,21 @@ while i <= 9: # i가 9가 될때까지 반복
         print(num, "*", i, "=", num * i)
         i += 1 # 다음 숫자로 넘어가기(없으면 무한루프)
         
-        #a = 9 #별찍기
-        #for i in range(a):
-            #print("" * (a - (i+1)), end="")
-            #print('*' * (i+1))
+    # 다음을 while문을 이용해서 만들어보기
+    
+        
+a = 9 #별찍기
+for i in range(a):
+    print("" * (a - (i+1)), end="")
+    print('*' * (i+1))
             
-#output = ""
+#output = "" #시작
 #for i in range(1,10):
                 #for j in range(0,i):
                     #output += "*"
                     #output += "\n"
-                    #print(output)
-                    #
+                    #print(output) #끝
+                    
                     #output = ""
                     #for i in range(1,15):
                         #for j in range(14,i,-1):
@@ -107,3 +108,15 @@ while i <= 9: # i가 9가 될때까지 반복
                                 #output += '*'
                                 #output += '\n'
                                 #print(output)
+
+#for i in range(5):
+    #print(i)
+    
+    #output = ""
+#for i in range(5,10):
+        #for j in range(14,i,-1):
+            #output += ''
+            #output += "*"
+            #output += "\n"
+            #print(output)
+
