@@ -78,45 +78,50 @@
         #continue
     
     # 구구단 2단 2x1 -> 2x9 출력하는 구구단 프로그램 만들기
-num = 2 # 2단
-i = 1 #숫자를 세기 시작 할 변수 생성
+#num = 2 # 2단
+#i = 1 #숫자를 세기 시작 할 변수 생성
     
-while i <= 9: # i가 9가 될때까지 반복
-        print(num, "*", i, "=", num * i)
-        i += 1 # 다음 숫자로 넘어가기(없으면 무한루프)
-        
-    # 다음을 while문을 이용해서 만들어보기
-    
-        
-a = 9 #별찍기
-for i in range(a):
-    print("" * (a - (i+1)), end="")
-    print('*' * (i+1))
+#while i <= 9: # i가 9가 될때까지 반복
+        #print(num, "*", i, "=", num * i)
+        #i += 1 # 다음 숫자로 넘어가기(없으면 무한루프)
+#target = 2
+#while True:
+        #while True:
+            #user_input = input("2~9 사이의 정수를 입력해 주세요.(/q입력시 종료):")
             
-#output = "" #시작
-#for i in range(1,10):
-                #for j in range(0,i):
-                    #output += "*"
-                    #output += "\n"
-                    #print(output) #끝
-                    
-                    #output = ""
-                    #for i in range(1,15):
-                        #for j in range(14,i,-1):
-                            #output += ''
-                            #for  j in range(0,2,* i -1):
-                                #output += '*'
-                                #output += '\n'
-                                #print(output)
+            #if user_input.isdigit() and (9 >= int(user_input) >= 2):
+                #target = int(user_input)
+                #break
+            #elif user_input == "/q":
+                #input("프로그램을 종료합니다.")
+                #exit(0)
+            #else:
+                #input("정수로만 이루어져있지 않거나, 범위를 벗어났습니다.(Enter)")
 
-#for i in range(5):
-    #print(i)
-    
-    #output = ""
-#for i in range(5,10):
-        #for j in range(14,i,-1):
-            #output += ''
-            #output += "*"
-            #output += "\n"
-            #print(output)
+        #num = 1
 
+            #target = 2
+            #num = 1
+        #while num < 10 :
+                #print(f"{target} X {num} - {target * num}")
+                #num += 1
+    # 다음을 while문을 이용해서 만들어보기
+#num = 0
+#while num < 5 :
+        #print("*", end="")
+        #num += 1
+        
+#num1 = 0
+#while num1 < 5:
+     #print("*", end="")
+        #num2 += 1
+        
+            #num2 = 0
+            #while num2 < 5:
+                #print("*", end="")
+                #num2 += 1
+                #print()
+                #num += 1
+                
+#print((("*" * 5) + "\n") * 5)
+                
