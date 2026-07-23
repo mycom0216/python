@@ -114,22 +114,39 @@
             #print('*', end="")
         #print()
         
-size =5
+#size =5
 
+#for i in range(size):
+    #for j in range(size - i - 1): ## 띄어쓰기 간격 중요
+        #print(" ", end="") ##"" >> 띄어쓰기 매우중요함(띄어쓰기에따라서 위치바뀜)
+    #for k in range(i + 1): ## 여기도 + >> 사이 띄어쓰기
+        #print("*", end="") ## 띄어쓰기
+    #print()
+
+#size =5
+
+#for i in range(size):
+    #for j in range(i): ## 띄어쓰기 간격 중요
+        #print(" ", end="") ##"" >> 띄어쓰기 매우중요함(띄어쓰기에따라서 위치바뀜)
+    #for k in range(size - i): ## 여기도 + >> 사이 띄어쓰기
+        #print("*", end="") ## 띄어쓰기
+    #print()
+    
+size = 5
+#####피라미드#####
 for i in range(size):
-    for j in range(size - i - 1): ## 띄어쓰기 간격 중요
-        print(" ", end="") ##"" >> 띄어쓰기 매우중요함(띄어쓰기에따라서 위치바뀜)
-    for k in range(i + 1): ## 여기도 + >> 사이 띄어쓰기
-        print("*", end="") ## 띄어쓰기
+    for j in range(size - i - 1):
+            print(" ", end ="")
+    for k in range((2 * i) + 1):
+            print("*", end ="")
     print()
 
-    
-    
-        
-        
-        
-        
-        
-        
-    
-   
+for i in range(size):
+    for i in range(size-1, -1, -1):
+        for j in range(size-1, - i -1):
+            print(" ", end ="")
+for k in range((2 * i) + 1):
+            print("*", end ="")
+print()
+
+
